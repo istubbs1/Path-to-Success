@@ -25,4 +25,18 @@ h2 {
 
 h4 {
     color: rgb(54, 0, 238);
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: orange;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #004085;
+    text-align: center;
+    padding: 20px 0;
 }
