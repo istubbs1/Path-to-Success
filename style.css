@@ -7,10 +7,6 @@
 /* ROOT VARIABLES */
 /* GLOBAL STYLES (mobile first/small) */
 
-@media screen and (max-width: 450px) {
-
-}
-
 body {
     background-color: rgb(107, 143, 231);
 }
