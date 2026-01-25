@@ -1,6 +1,16 @@
-/* CSS BY (add your name) */
-/* IMPORTED FONTS */
+/* styles.css file content */
+/* CSS BY Isaiah Stubbs */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
 /* CSS RESET */
 /* ROOT VARIABLES */
 /* GLOBAL STYLES (mobile first/small) */
 
+@media screen and (max-width: 450px) {
+
+}
+
+body {
+    background-color: rgb(107, 143, 231);
+}
