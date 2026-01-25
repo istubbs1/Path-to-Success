@@ -23,20 +23,23 @@ h2 {
     color: white;
 }
 
-h4 {
+div h4 {
     color: rgb(54, 0, 238);
     background-color: white;
+    display:list-item;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .container {
     width: 100%;
     max-width: 400px;
     background-color: orange;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 header {
-    background-color: #004085;
+    background-color: rgb(72, 79, 183);
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
