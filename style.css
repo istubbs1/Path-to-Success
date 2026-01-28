@@ -5,7 +5,14 @@
 
 /* CSS RESET */
 /* ROOT VARIABLES */
-/* GLOBAL STYLES (mobile first/small) */
+/* Mobile-first base styles */
+
+@media (min-width:450px) {
+    body {
+        padding: 500px;
+        min-height: 100%;
+    }
+}
 
 @font-face {
     font-family: 'Kavoon';
@@ -110,4 +117,8 @@ td {
 
 tr {
     border: 3px solid rgb(233,187,86);
+}
+
+small {
+    font-family: "Inter";
 }
