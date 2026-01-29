@@ -4,7 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
+
+
 /* ROOT VARIABLES */
+:root {
+    --primary-color: rgb(72, 79, 183);
+}
+
 /* Mobile-first base styles */
 
 @media (min-width:450px) {
@@ -12,6 +18,10 @@
         padding: 500px;
         min-height: 100%;
     }
+}
+
+body {
+    background-color: var(--primary-color);
 }
 
 @font-face {
@@ -90,7 +100,7 @@ div h4 {
 }
 
 header {
-    background-color: rgb(72, 79, 183);
+
     text-align: center;
     padding: 20px;
 }
