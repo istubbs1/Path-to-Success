@@ -95,6 +95,15 @@ table {
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 main {
      color: var(--primary-bg-color);
 }
@@ -111,8 +120,14 @@ h2 {
 
 h3 {
     font-family: 'Inter';
-    font-size:1.5em;
+    font-size: 1.5em;
     font-style: italic;
+}
+
+main h3 {
+    font-family: 'Inter';
+    font-size: 1.5em;
+    font-style: normal;
 }
 
 h4 {
@@ -131,7 +146,6 @@ nav p {
 
 body {
     background-color: rgb(107, 143, 231);
-    text-align: center;
 }
 
 header {
@@ -147,15 +161,6 @@ h2 {
     color: white;
 }
 
-div h4 {
-    color: rgb(54, 0, 238);
-    background-color: white;
-    display:list-item;
-    padding: 10px 20px;
-    text-align: center;
-    border-rig
-}
-
 .container {
     width: 100%;
     max-width: 400px;
@@ -168,6 +173,8 @@ table {
     border-collapse: collapse;
     border: 1px solid rgb(233,187,86);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -198,6 +205,54 @@ tr {
     border: 3px solid rgb(233,187,86);
 }
 
+#first-step {
+    background-color: var(--Pink);
+    color: var(--White)
+}
+
+#first-step {
+    padding: 20px;
+}
+
 footer {
     font-family: "Inter";
+    background-color: var(--Purple);
+    padding: 30px;
+    color: var(--White)
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    background-color: var(--Yellow);
+    padding: 30px;
+}
+
+#services {
+    background-color: var(--Purple);
+}
+
+#choose {
+    background-color: var(--Pink);
+}
+
+#pricing {
+    background-color: var(--Purple);
+    padding: 20px;
+}
+
+main h3 {
+    color: var(--Yellow);
+    font-style: bold;
+}
+
+#first-step h4 {
+    text-align: center;
+    color: var(--Dark-gray);
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px black;
 }
